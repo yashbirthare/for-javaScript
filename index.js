@@ -1,36 +1,28 @@
-// var x = "hello my nama is yash birthare <br>";
-    
 
-// var x , y , z; 
+// var x = "hello frd i am yash from guna <br>"
 
-
- var x = " yash <br>"
- 
-// y = "birthare <br>"
-// z = "miss u maa"
-
-
-
-document.write(x)
-document.write(x)
-document.write(y)
-document.write(y)
-document.write(z)
+// var y = "hello <br>"
 
 
 
 
 
+// document.write(x)
+// document.write(x)
+// document.write(x)
+// document.write(x)
+// document.write(y)
+// document.write(y)
+// document.write(y)
+// document.write(y)
+// document.write(y)
 
 
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
-// document.write(x);
+const  yash = "i am yash and i am from guna";
+
+
+
+
+
+
+document.write(yash)
