@@ -135,3 +135,23 @@ var age = 22;
 if (age >= 18 || age <= 21) {
     document.write("a is greter")
     }
+
+
+// ==========================================================================================    
+
+// let welcome = (name)  => {
+//     return `hello & welcome ${name}`;
+
+// }
+
+// console.log(welcome("yash birthate"));
+
+
+    // var hello = (name , age) => {
+    //     return `hello & welcome ${name} - ${age}`;
+    // }
+
+    // console.log(hello("my name is yash ", 25))
+
+
+    var 
