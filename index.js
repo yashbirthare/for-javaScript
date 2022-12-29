@@ -48,7 +48,7 @@ document.write("<br> <br>");
 var a = 10;
 var b =  3;
 
-var c = (a + b) * 2;
+var c = a + b * 2;
 
 document.write(c);
 
@@ -89,10 +89,49 @@ a %= b
 
 // console.clear();
 
+// ============================================================================================
+document.write("<br><br>")
 
 
-
-
-
+var x = 10;
+var y = 11;
+ 
+document.write(  x == y);
+document.write("<br><br>");
+document.write(  x === y);
+document.write("<br><br>");
+document.write(x != y);
+document.write("<br><br>");
+document.write(x !== y);
+document.write("<br><br>");
 
 // ===============================================================================================
+
+
+var x = 20 
+var y = 20
+
+
+if  (x == y) (
+    document.write("u are right")
+)
+
+// ==================================================================================================
+document.write("<br><br>");
+
+var age = 20;
+// var b = "10";
+
+if (age >= 18 && age <= 21) {
+    document.write("a is greter")
+    }
+
+    // ==================================================================================================
+document.write("<br><br>");
+
+var age = 22;
+// var b = "10";
+
+if (age >= 18 || age <= 21) {
+    document.write("a is greter")
+    }
