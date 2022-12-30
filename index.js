@@ -154,4 +154,41 @@ if (age >= 18 || age <= 21) {
     // console.log(hello("my name is yash ", 25))
 
 
-    var 
+// var yash = ["yash birthare", "guna" , 25] ;
+
+// var  [name, city, age ] = yash;
+
+
+// console.log(name)
+// console.log(city)
+// console.log(age)
+
+
+
+
+
+
+// var user = {
+//     name: "yash birthare",
+//     city: "guna",
+//     age: 25
+// }
+
+// var { name , city , age} = user;
+
+
+
+// console.log(name);
+// console.log(city);
+// console.log(age);
+
+document.write("<br> <br>")
+
+var first = "yash birthare";
+var seconf = 25;
+
+document.write(`welcome my city ${first}  my age is ${seconf}`)
+
+
+console.log (yyy)
+let  yyy = ""; 
