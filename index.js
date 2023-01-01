@@ -182,13 +182,20 @@ if (age >= 18 || age <= 21) {
 // console.log(city);
 // console.log(age);
 
-document.write("<br> <br>")
+// document.write("<br> <br>")
 
-var first = "yash birthare";
-var seconf = 25;
+// var first = "yash birthare";
+// var seconf = 25;
 
-document.write(`welcome my city ${first}  my age is ${seconf}`)
+// document.write(`welcome my city ${first}  my age is ${seconf}`)
 
 
-console.log (yyy)
-let  yyy = ""; 
+// console.log (yyy)
+// let  yyy = ""; 
+
+
+
+
+console.log ("hello my name is yash")
+
+
