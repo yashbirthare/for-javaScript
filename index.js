@@ -196,6 +196,88 @@ if (age >= 18 || age <= 21) {
 
 
 
-console.log ("hello my name is yash")
+// console.log ("hello my name is yash")
 
+
+// function hello () {
+//     console.log("hello yash")
+// }
+
+
+
+// hello();
+
+// var yash = function () {
+//     console.log("hello bhanu")
+// };
+
+// yash()
+
+
+
+// var riya = () => {
+//     console.log ("riya")
+// }
+
+
+// riya()
+
+
+
+// let birthare = (name , age) => `welcome my home ${name} ${age}`
+
+// console.log(birthare("tinku", 25));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var user = ["yash", "guna", 25 ] ;
+
+// var [name , city, age ] = user;
+
+// console.log(name)
+// console.log(city)
+// console.log(age)
+
+
+
+// var user = {
+//     name: "yash", 
+//     age: 25,
+//     city: "guna"
+// };
+
+//  var {name : n, age, city} = user;
+
+// console.log(n)
+// console.log(age)
+// console.log(city)
 
