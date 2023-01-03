@@ -60,7 +60,7 @@ document.write("<br> <br>");
 var a = 10;
 var b = 3;
 
-a -=  b;
+a +=  b * 2;
 
 document.write(a)
 
@@ -94,7 +94,7 @@ document.write("<br><br>")
 
 
 var x = 10;
-var y = 11;
+var y = 10
  
 document.write(  x == y);
 document.write("<br><br>");
@@ -139,145 +139,53 @@ if (age >= 18 || age <= 21) {
 
 // ==========================================================================================    
 
-// let welcome = (name)  => {
-//     return `hello & welcome ${name}`;
-
+// function yash () {
+//         console.log("hello and welcome")
+    
 // }
 
-// console.log(welcome("yash birthate"));
-
-
-    // var hello = (name , age) => {
-    //     return `hello & welcome ${name} - ${age}`;
-    // }
-
-    // console.log(hello("my name is yash ", 25))
-
-
-// var yash = ["yash birthare", "guna" , 25] ;
-
-// var  [name, city, age ] = yash;
-
-
-// console.log(name)
-// console.log(city)
-// console.log(age)
-
-
-
-
-
-
-// var user = {
-//     name: "yash birthare",
-//     city: "guna",
-//     age: 25
-// }
-
-// var { name , city , age} = user;
-
-
-
-// console.log(name);
-// console.log(city);
-// console.log(age);
-
-// document.write("<br> <br>")
-
-// var first = "yash birthare";
-// var seconf = 25;
-
-// document.write(`welcome my city ${first}  my age is ${seconf}`)
-
-
-// console.log (yyy)
-// let  yyy = ""; 
-
-
-
-
-// console.log ("hello my name is yash")
-
-
-// function hello () {
-//     console.log("hello yash")
-// }
-
-
-
-// hello();
-
-// var yash = function () {
-//     console.log("hello bhanu")
-// };
 
 // yash()
 
 
 
-// var riya = () => {
-//     console.log ("riya")
+// let bhanu = function () {
+//     console.log("hello and welcome")
+// }
+
+// yash()
+
+
+// let yash = (name, age) => {
+//     return `hello and welcome ${name} - ${age}`
+   
 // }
 
 
-// riya()
+// console.log(yash("bhanu" ,25));
 
 
+// var user = {name:"tinku", 
+//             age:25, 
+//             city:"guna"};
 
-// let birthare = (name , age) => `welcome my home ${name} ${age}`
-
-// console.log(birthare("tinku", 25));
-
-
-
+// var  {name : s, age = 33,  city} = user;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var user = ["yash", "guna", 25 ] ;
-
-// var [name , city, age ] = user;
-
-// console.log(name)
-// console.log(city)
-// console.log(age)
-
-
-
-// var user = {
-//     name: "yash", 
-//     age: 25,
-//     city: "guna"
-// };
-
-//  var {name : n, age, city} = user;
-
-// console.log(n)
-// console.log(age)
+// console.log(s);
+// console.log(age);
 // console.log(city)
 
+
+
+
+
+
+// console.log(pp);
+
+
+
+d = 12;
+e = 13;
+
+console.log(null === undefined)
