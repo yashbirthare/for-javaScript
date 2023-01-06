@@ -139,30 +139,30 @@ if (age >= 18 || age <= 21) {
 
 // ==========================================================================================    
 
-// function yash () {
-//         console.log("hello and welcome")
+function yash () {
+        console.log("hello and welcome")
     
-// }
+}
 
 
-// yash()
+yash()
 
 
 
-// let bhanu = function () {
-//     console.log("hello and welcome")
-// }
+let bhanu = function () {
+    console.log("hello and welcome")
+}
 
-// yash()
+yash()
 
 
-// let yash = (name, age) => {
-//     return `hello and welcome ${name} - ${age}`
+var yash = (name, age) => {
+    return `hello and welcome ${name} - ${age}`
    
-// }
+}
 
 
-// console.log(yash("bhanu" ,25));
+console.log(yash("bhanu" ,25));
 
 
 // var user = {name:"tinku", 
@@ -184,8 +184,5 @@ if (age >= 18 || age <= 21) {
 // console.log(pp);
 
 
-
-d = 12;
-e = 13;
-
-console.log(null === undefined)
+const defaultExample = (a, b=0) => a + b
+console.log(defaultExample(2))
