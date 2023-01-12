@@ -193,10 +193,10 @@
 
 // =============old======================
 
-const x = "yash birthare"
-const y = 25
+// const x = "yash birthare"
+// const y = 25
 
-document.write(`hello and welcome ${x} what is your age ${y}`)
-console.log(`hello and welcome ${x} what is your age ${y}`)
+// document.write(`hello and welcome ${x} what is your age ${y}`)
+// console.log(`hello and welcome ${x} what is your age ${y}`)
 
 // =========Template String ===================
