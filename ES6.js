@@ -183,3 +183,42 @@
 
 // =========Template String ===================
 
+
+
+
+
+
+
+// example 11 1st lecture
+
+// function defaultExample  (a, b )  {
+//     if(b === undefined) {
+//         b =0
+//     }
+//     return a + b;
+// }
+ 
+// console.log(defaultExample(2))
+// // ===================================================================
+// // old days
+
+// function defaultExample  (a, b )  {
+//    b = b || 2;
+//     return a + b;
+// }
+ 
+// console.log(defaultExample(2))
+
+// // ===================================================================
+
+// // new
+
+// function defaultExample  (a, b )  {
+//     b = b ?? 2;
+//      return a + b;
+//  }
+  
+//  console.log(defaultExample(2))
+//  // ===================================================================
+ 
+//  →  /app.js
