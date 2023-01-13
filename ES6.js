@@ -77,6 +77,9 @@
 
 // user(["tinku", 25, "guna","male",25000] );
 
+
+
+
 // const user = ([name, age, city,gender,selery]) => {
 
 //   console.log(name)
@@ -84,8 +87,9 @@
 //   console.log(city)
 //   console.log(gender)
 //   console.log(selery)
-
 // }
+
+// user(["tinku", 25, "guna","male",25000] );
 
 // const user = () => {
 
@@ -221,4 +225,4 @@
 //  console.log(defaultExample(2))
 //  // ===================================================================
  
-//  →  /app.js
+
