@@ -224,5 +224,64 @@
   
 //  console.log(defaultExample(2))
 //  // ===================================================================
- 
 
+
+
+
+// Promise
+ 
+// const yash = true;
+
+// const promise = new Promise((resolve, reject)=> {
+//     if(yash){
+//     resolve("you are right")
+//     }else{
+//     reject("you are wrong")
+//     }
+// })
+
+// console.log(promise)
+
+
+
+
+
+
+// ===================================================
+
+// function laptop(yash) {
+
+//     return new Promise((resolve, reject)=> {
+//         if(yash){
+//         resolve("you are right")
+//         }else{
+//         reject("you are wrong")
+//         }
+//     })
+// }
+
+// console.log(laptop(true))
+
+
+
+
+function laptop(Home) {
+
+    return new Promise((resolve,reject) =>{
+
+        console.log("pless wait data is running")
+        setTimeout(() => {
+            if(Home){
+                resolve("you are right");
+            }else{
+                reject("you are Wrong")
+            }
+        })
+            
+        },5000)
+
+
+}
+
+
+console.log(laptop(true))
