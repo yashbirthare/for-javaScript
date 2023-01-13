@@ -264,15 +264,31 @@
 
 
 
-function prom (example) {
+==============================================================
 
-return  new Promise(function(resolve,reject){
-    if(example){
-     resolve("you are pass")
-    }else{
-    reject("you are failed")
-    }
-})
+
+
+
+// const one = (complete)  => {
     
-}
-console.log(prom(true))
+// return new Promise(function(resolve, reject){
+//     console.log("please wait website is Loading...")
+//     setTimeout(() => {
+//         if(complete){
+//             resolve("you are pass")
+//         }else{
+//             reject("you are fail")
+//         }
+//     },3000)
+
+//     })
+
+// }
+// const onfulfilment = (result) => {
+//  console.log(result)
+// }
+// const onRejection = (error) => {
+//     console.log(error)
+// }
+
+// one(true).then(onfulfilment).catch(onRejection);
