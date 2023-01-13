@@ -48,7 +48,7 @@
 //   document.write(selery)
 
   
-// // ================================================================================
+// ================================================================================
 
 // let user = ["tinku", 25, "guna","male",25000] 
 
@@ -264,24 +264,15 @@
 
 
 
+function prom (example) {
 
-function laptop(Home) {
-
-    return new Promise((resolve,reject) =>{
-
-        console.log("pless wait data is running")
-        setTimeout(() => {
-            if(Home){
-                resolve("you are right");
-            }else{
-                reject("you are Wrong")
-            }
-        })
-            
-        },5000)
-
-
+return  new Promise(function(resolve,reject){
+    if(example){
+     resolve("you are pass")
+    }else{
+    reject("you are failed")
+    }
+})
+    
 }
-
-
-console.log(laptop(true))
+console.log(prom(true))
