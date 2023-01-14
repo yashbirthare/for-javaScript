@@ -8,6 +8,10 @@
 // document.write("<br><br>")
 
 
+
+
+
+
 // const hey = function () {
 //     document.write("my name is bhanu")
 // }
@@ -16,6 +20,10 @@
 // hey()
 
 // document.write("<br><br>")
+
+
+
+
 
 // const Arrow = () => 
 // document.write("my name is king")
@@ -91,21 +99,25 @@
 
 // user(["tinku", 25, "guna","male",25000] );
 
-// const user = () => {
-
-//   return ["tinku", 25, "guna","male",25000];
 
 
-// }
-
-// let [name, age, city,gender,selery] = user();
 
 
-// console.log(name);
-// console.log(age);
-// console.log(city);
-// console.log(gender);
-// console.log(selery);
+const user = () => {
+
+  return ["tinku", 25, "guna","male",25000];
+
+
+}
+
+ [name, age, city,gender,selery] = user();
+
+
+console.log(name);
+console.log(age);
+console.log(city);
+console.log(gender);
+console.log(selery);
 
 
 // =============================================================================
