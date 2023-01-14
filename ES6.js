@@ -307,9 +307,3 @@
 // =====================================Asynchronous JavaScript===========================================
 
 
-
-async function moon () {
-    return "hello"
-}
-
-console.log(moon())
