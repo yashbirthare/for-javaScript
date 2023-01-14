@@ -60,7 +60,7 @@ document.write("<br> <br>");
 var a = 10;
 var b = 3;
 
-a +=  b * 2;
+a +=  b ;
 
 document.write(a)
 
