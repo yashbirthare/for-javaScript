@@ -103,28 +103,26 @@
 
 
 
-const user = () => {
+// const user = () => {
 
-  return ["tinku", 25, "guna","male",25000];
-
-
-}
-
- [name, age, city,gender,selery] = user();
+//   return ["tinku", 25, "guna","male",25000];
 
 
-console.log(name);
-console.log(age);
-console.log(city);
-console.log(gender);
-console.log(selery);
+// }
+
+//  [name, age, city,gender,selery] = user();
+
+
+// console.log(name);
+// console.log(age);
+// console.log(city);
+// console.log(gender);
+// console.log(selery);
 
 
 // =============================================================================
 
 // object
-
-
 
 // const user = {name: "yash", age: 25, city:"guna",}
 
@@ -236,8 +234,6 @@ console.log(selery);
   
 //  console.log(defaultExample(2))
 //  // ===================================================================
-
-
 
 
 // Promise
