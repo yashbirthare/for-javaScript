@@ -276,29 +276,29 @@
 
 
 
-const one = (complete)  => {
+// const one = (complete)  => {
     
-return new Promise(function(resolve, reject){
-    console.log("please wait website is Loading...")
-    setTimeout(() => {
-        if(complete){
-            resolve("you are pass")
-        }else{
-            reject("you are fail")
-        }
-    },3000)
+// return new Promise(function(resolve, reject){
+//     console.log("please wait website is Loading...")
+//     setTimeout(() => {
+//         if(complete){
+//             resolve("you are pass")
+//         }else{
+//             reject("you are fail")
+//         }
+//     },3000)
 
-    })
+//     })
 
-}
-const onfulfilment = (result) => {
- console.log(result)
-}
-const onRejection = (error) => {
-    console.log(error)
-}
+// }
+// const onfulfilment = (result) => {
+//  console.log(result)
+// }
+// const onRejection = (error) => {
+//     console.log(error)
+// }
 
-one(true).then(onfulfilment).catch(onRejection);
+// one(true).then(onfulfilment).catch(onRejection);
 
 
 
