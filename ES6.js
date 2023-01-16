@@ -300,13 +300,18 @@
 
 // one(true).then(onfulfilment).catch(onRejection);
 
+const user  = () => {
+    console.log("please wait")
 
+setTimeout (() => {
 
+    console.log("yash birthare")
 
+}, 4000)
 
+}
 
-
-
+user()
 
 
 
