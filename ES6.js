@@ -300,6 +300,12 @@
 
 // one(true).then(onfulfilment).catch(onRejection);
 
+
+
+
+
+
+
 const user  = () => {
     console.log("please wait")
 
