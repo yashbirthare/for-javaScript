@@ -329,7 +329,7 @@
 
 // var a = 0;
 
-//  var id =  setInterval(yash, 100);
+//  var id =  setInterval(yash, 1000);
 
 // function yash () {
 //     a = a + 10;
