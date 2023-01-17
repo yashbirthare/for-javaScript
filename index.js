@@ -104,6 +104,14 @@ document.write(x != y);
 document.write("<br><br>");
 document.write(x !== y);
 document.write("<br><br>");
+document.write(x > y);
+document.write("<br><br>");
+document.write(x < y);
+document.write("<br><br>");
+document.write(x >= y);
+document.write("<br><br>");
+document.write(x <= y);
+document.write("<br><br>");
 
 // ===============================================================================================
 

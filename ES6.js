@@ -346,7 +346,34 @@
 
 
 
-// setTimeout ======================= clearTimeout 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =====================================Syncronous programming===========================================
+
+// const  a = prompt("what is your name");
+// const  b = prompt("what is your age");
+// const  c = prompt("what is your fev color");
+
+// console.log(aaa +  " is "  + bbb +  " years old and " + ccc + " this is a " + aaa + " fev color ")
+
+
+// =========================================Asynchronous programming======================================================      
 
 // const user  = () => {
 //     console.log("please wait")
@@ -360,28 +387,3 @@
 // }
 
 // user()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// =====================================Asynchronous JavaScript===========================================
-
-
