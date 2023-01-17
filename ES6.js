@@ -306,30 +306,60 @@
 
 
 
-const user  = () => {
-    console.log("please wait")
-
-setTimeout (() => {
-
-    console.log("yash birthare")
-
-}, 4000)
-
-}
-
-user()
 
 
 
 
 
+// setInterval ==============  clearInterval 
+
+// ====================================================================
+
+// var a = 0;
+
+// setInterval(yash, 1000)
+
+// function yash () {
+//     a = a + 10;
+//    var target = document.getElementById("box22")
+//    target.style.marginLeft = a + "px";
+// }
+// ===============================================================================
+
+
+// var a = 0;
+
+//  var id =  setInterval(yash, 100);
+
+// function yash () {
+//     a = a + 10;
+//     if (a == 200){
+//    clearInterval(id);
+//     }else{
+//         var target = document.getElementById("box22")
+//         target.style.marginLeft = a + "px";
+//     }
+
+// }
+
+// =============================================================================
 
 
 
+// setTimeout ======================= clearTimeout 
 
+// const user  = () => {
+//     console.log("please wait")
 
+// setTimeout (() => {
 
+//     console.log("yash birthare")
 
+// }, 4000)
+
+// }
+
+// user()
 
 
 
