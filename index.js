@@ -53,6 +53,7 @@ var c = a + b * 2;
 document.write(c);
 
 
+
 // ========================================================================================= assignment operators
 
 document.write("<br> <br>");
@@ -60,17 +61,12 @@ document.write("<br> <br>");
 var a = 10;
 var b = 3;
 
-a +=  b ;
+a -=  b ;
 
 document.write(a)
 
 
 // ===================================================================================== 
-
-var a = 10;
-var b = 3;
-
-a %= b
 
 // console.time("texting")
 // console.warn("you are wrong");
@@ -93,8 +89,8 @@ a %= b
 document.write("<br><br>")
 
 
-var x = 10;
-var y = 10
+var x = 12;
+var y = 10;
  
 document.write(  x == y);
 document.write("<br><br>");
