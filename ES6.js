@@ -251,10 +251,6 @@
 // console.log(promise)
 
 
-
-
-
-
 // ===================================================
 
 // function laptop(yash) {
@@ -429,6 +425,23 @@
 
 // user()
 
+
+
+
+
+//   async function text () {
+//     await console.log("2 : Message")
+//     console.log("3 : Message")
+//     console.log("4 : Message")
+
+
+//  }
+//  console.log("1 : Message")
+
+//  text()
+//  console.log("5 : Message")
+//  console.log("d")
+//  console.log("e")
 
 
 
