@@ -342,19 +342,60 @@
 
 // }
 
+
+
+
+// ========new
+
+// var a = 0;
+
+// var id = setInterval (() => {
+//     a = a + 10;
+//     if (a == 200){
+//    clearInterval(id);
+//     }else{
+//         var target = document.getElementById("box22")
+//         target.style.marginLeft = a + "px";
+//     }
+// },1000)
+
+  
+
+
 // =============================================================================
 
 
+// setTimeout ====================== clearTimeout 
+
+// ====old
+//  var id = setTimeout(anim, 3000);
+
+
+//    function anim () {
+//     var target = document.getElementById("box22");
+//     target.style.width = "200px"
+//    }
+
+//    function stop() {
+//     clearTimeout( id)
+//    }
 
 
 
+// =====new
+
+// var id = setTimeout (() => {
+    
+//     var target = document.getElementById("box22");
+//     target.style.width = "200px"
+   
+
+// },1000)
 
 
-
-
-
-
-
+// function stop() {
+// clearTimeout( id)
+// }
 
 
 
