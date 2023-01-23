@@ -236,7 +236,7 @@
 //  // ===================================================================
 
 
-// Promise
+Promise
  
 // const yash = true;
 
@@ -402,14 +402,14 @@
 
 // =====================================Syncronous programming===========================================
 
-// const  a = prompt("what is your name");
-// const  b = prompt("what is your age");
-// const  c = prompt("what is your fev color");
+// const  aaa = prompt("what is your name");
+// const  bbb = prompt("what is your age");
+// const  ccc = prompt("what is your fev color");
 
 // console.log(aaa +  " is "  + bbb +  " years old and " + ccc + " this is a " + aaa + " fev color ")
 
 
-// =========================================Asynchronous programming======================================================      
+// // =========================================Asynchronous programming======================================================      
 
 // const user  = () => {
 //     console.log("please wait")
@@ -438,19 +438,7 @@
 
 
 
-//   async function text () {
-//     await console.log("2 : Message")
-//     console.log("3 : Message")
-//     console.log("4 : Message")
 
-
-//  }
-//  console.log("1 : Message")
-
-//  text()
-//  console.log("5 : Message")
-//  console.log("d")
-//  console.log("e")
 
 
 
