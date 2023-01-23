@@ -340,7 +340,6 @@
 
 
 
-
 // ========new
 
 // var a = 0;
@@ -373,7 +372,7 @@
 //    }
 
 //    function stop() {
-//     clearTimeout( id)
+//     clearTimeout(id)
 //    }
 
 
