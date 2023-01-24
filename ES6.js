@@ -463,3 +463,41 @@
 // })
 
 // console.log(b)
+
+
+
+
+
+
+
+
+// ============== Array map =============
+
+
+
+// =========== old ============
+
+// const numbers = [2 , 5, 6, 3, 10 ,12]
+// console.log(numbers)
+
+// const num = numbers.map(yash)
+
+// function yash (num) {
+//     return  num + 2
+// }
+
+// console.log(num)
+
+
+
+// =====================new=============
+
+// const box = [12,23,54,12,54,17,]
+// console.log(box)
+
+// const num = box.map(yash = (num) => {
+//     return num  + 2
+// })
+
+// console.log(num)
+
