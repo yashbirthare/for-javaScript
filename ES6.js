@@ -431,3 +431,35 @@
 
 
 
+
+
+
+
+// =============== Array filter===========
+
+// old ====
+
+// const ages = [10 ,15 ,5 , 9, 21,18, 19,];
+// console.log(ages);
+
+// const b = ages.filter(yash)
+// console.log(b);
+
+
+// function yash (age) {
+//     return age >= 18;
+// }
+
+
+
+
+// // new ===
+// const ages = [10 ,15 ,5 , 9, 21,18, 19,];
+// console.log(ages)
+
+
+// const b = ages.filter(yash = (age) => {
+//     return age >= 18
+// })
+
+// console.log(b)
