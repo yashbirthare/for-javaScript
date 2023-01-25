@@ -569,7 +569,6 @@
 
 // const dar = ashu.reduce(box = (acc, curr) =>  acc + curr ,0)
 
-
 // console.log(dar)
 
 
