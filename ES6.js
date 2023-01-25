@@ -453,7 +453,7 @@
 
 
 
-// // new ===
+// // // new ===
 // const ages = [10 ,15 ,5 , 9, 21,18, 19,];
 // console.log(ages)
 
@@ -500,5 +500,76 @@
 // })
 
 // console.log(num) 
+
+
+
+
+
+
+
+
+
+
+// ============== sort =============== reverse ===============
+
+// const user = ["bhanu", "tinku" , "ashu" , "ajay" ]
+// document.write(user + "<br><br>")
+// user.sort();
+// document.write(user + "<br><br>")
+// user.reverse();
+// document.write(user + "<br><br>")
+
+
+// =========================== find =========  findIndex===============
+
+// old====
+
+// const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(index)
+// const fil = index.find(yash)
+
+// function yash(age) {
+//     return age > 18
+// }
+
+// console.log(fil)
+
+
+// new======== 
+
+// const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(index)
+
+// const fil = index.find(yash = (age) => {
+//     return age > 18
+// })
+
+// console.log(fil)
+
+
+
+
+// ===old
+
+// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+
+// const box = (acc, curr) =>  acc + curr 
+
+// const dar = ashu.reduce(box,0)
+
+
+// console.log(dar)
+
+
+
+
+// ====new
+
+// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+
+// const dar = ashu.reduce(box = (acc, curr) =>  acc + curr ,0)
+
+
+// console.log(dar)
 
 
