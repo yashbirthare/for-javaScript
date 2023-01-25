@@ -1,56 +1,69 @@
-var u = "hello"
-var v = true
-var w = 500
-var x = ["HTML" , "CSS" , "JS", "REACT.JS",]
-var y = {
-    name: "yash birthare",
-    city: "guna"
-}
+// var u = "hello"
+// var v = true
+// var w = 500
+// var x = ["HTML" , "CSS" , "JS", "REACT.JS",]
+// var y = {
+//     name: "yash birthare",
+//     city: "guna"
+// }
 
-document.write(u)
-document.write("<br>")
-document.write(typeof u)
-document.write("<br> <br>")
+// document.write(u)
+// document.write("<br>")
+// document.write(typeof u)
+// document.write("<br> <br>")
 
-document.write(v)
-document.write("<br>")
-document.write(typeof v)
-document.write("<br> <br>")
+// document.write(v)
+// document.write("<br>")
+// document.write(typeof v)
+// document.write("<br> <br>")
 
-document.write(w)
-document.write("<br>")
-document.write(typeof w)
-document.write("<br> <br>")
+// document.write(w)
+// document.write("<br>")
+// document.write(typeof w)
+// document.write("<br> <br>")
 
-document.write(x)
-document.write("<br>")
-document.write(typeof x)
-document.write("<br> <br>")
+// document.write(x)
+// document.write("<br>")
+// document.write(typeof x)
+// document.write("<br> <br>")
 
-document.write(y)
-document.write("<br>")
-document.write(typeof y)
-document.write("<br> <br>")
+// document.write(y)
+// document.write("<br>")
+// document.write(typeof y)
+// document.write("<br> <br>")
+
+
+
 
 // data type ========================================
 
 // ++++++++++++++++++++++++++++++++++++==============================================++++++++++++++++++++++++++++++++++++++++operators+++++++++++++++++ arithmetic operators
-var a = 10;
-var b =  3;
+// var a = 10;
+// var b =  3;
 
-var c = (a + b) * 2;
+// var c = (a + b) * 2;
 
-document.write(c);
+// document.write(c);
 
-document.write("<br> <br>");
+// document.write("<br> <br>");
 
-// wrong
-var a = 10;
-var b =  3;
+// // wrong
+// var a = 10;
+// var b =  3;
 
-var c = a + b * 2;
+// var c = a + b * 2;
 
-document.write(c);
+// document.write(c);
+
+
+// var a = 7;
+// var b = 4;
+// console.log(a + b)
+// a ++
+// console.log(a + b)
+
+
+
 
 
 
@@ -61,7 +74,7 @@ document.write("<br> <br>");
 var a = 10;
 var b = 3;
 
-a -=  b ;
+a -= b ;
 
 document.write(a)
 
@@ -86,29 +99,31 @@ document.write(a)
 // console.clear();
 
 // ============================================================================================
-document.write("<br><br>")
+// document.write("<br><br>")
 
 
-var x = 12;
-var y = 10;
+// var x = 12;
+// var y = 10;
  
-document.write(  x == y);
-document.write("<br><br>");
-document.write(  x === y);
-document.write("<br><br>");
-document.write(x != y);
-document.write("<br><br>");
-document.write(x !== y);
-document.write("<br><br>");
-document.write(x > y);
-document.write("<br><br>");
-document.write(x < y);
-document.write("<br><br>");
-document.write(x >= y);
-document.write("<br><br>");
-document.write(x <= y);
-document.write("<br><br>");
+// document.write(  x == y);
+// document.write("<br><br>");
+// document.write(  x === y);
+// document.write("<br><br>");
+// document.write(x != y);
+// document.write("<br><br>");
+// document.write(x !== y);
+// document.write("<br><br>");
+// document.write(x > y);
+// document.write("<br><br>");
+// document.write(x < y);
+// document.write("<br><br>");
+// document.write(x >= y);
+// document.write("<br><br>");
+// document.write(x <= y);
+// document.write("<br><br>");
 
 // ===============================================================================================
 
 // ====================================addvance javaScript===================================
+
+
