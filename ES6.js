@@ -339,7 +339,6 @@
 // }
 
 
-
 // ========new
 
 // var a = 0;
@@ -506,6 +505,35 @@
 
 
 
+// =====================reduce=========================
+
+// ===old
+
+// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+
+
+// const dar = ashu.reduce(box,0)
+
+// function box (acc, curr) {
+//     return  acc + curr 
+//     }
+// console.log(dar)
+
+
+// ====new
+
+// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+
+// const dar = ashu.reduce(box = (acc, curr) => {
+//     return acc + curr 
+// },0) 
+
+// console.log(dar)
+
+
+
+
+
 
 
 
@@ -520,7 +548,16 @@
 // document.write(user + "<br><br>")
 
 
-// =========================== find =========  findIndex===============
+// =======================pop ============== push ===========
+// const user = ["bhanu", "tinku" , "ashu" , "ajay" ]
+// document.write(user + "<br><br>")
+// user.pop();
+// document.write(user + "<br><br>")
+// user.push("deko")
+// document.write(user + "<br><br>")
+
+
+// =========================== find ===== findIndex ===================
 
 // old====
 
@@ -548,27 +585,107 @@
 
 
 
+// old====
 
-// ===old
+// const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(index)
+// const fil = index.findIndex(yash)
 
-// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+// function yash(age) {
+//     return age > 18
+// }
 
-// const box = (acc, curr) =>  acc + curr 
-
-// const dar = ashu.reduce(box,0)
-
-
-// console.log(dar)
-
-
+// console.log(fil)
 
 
-// ====new
+// new======== 
 
-// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+// const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(index)
 
-// const dar = ashu.reduce(box = (acc, curr) =>  acc + curr ,0)
+// const fil = index.findIndex(yash = (age) => {
+//     return age > 18
+// })
 
-// console.log(dar)
+// console.log(fil)
 
+
+
+// ==============some ===== every==============
+
+// old========
+
+// const box = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(box)
+
+// const x = box.some(yash)
+
+// function yash (age) {
+//     return age > 18
+// }
+
+// console.log(x)
+
+// new===========
+
+// const box = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(box)
+
+// const x = box.some(yash = (age) => {
+//     return age > 18
+// })
+
+// console.log(x)
+
+
+// old=====
+
+// const box = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(box)
+
+// const x = box.every(yash)
+
+// function yash (age) {
+//     return age > 18
+// }
+
+// console.log(x)
+
+
+
+// new=======
+
+
+// const box = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(box)
+
+// const x = box.every(yash = (age) => {
+//     return age > 18
+// })
+
+// console.log(x)
+
+
+// ===========split==============
+
+// const str = "javaScript is  a GREAT Language";
+
+// const box23 = str.split("a");
+
+// console.log(box23)
+
+// ==============join ========concat==============
+
+
+
+
+
+
+
+
+//  const x = "hello my name is yash "
+//  const y = "hello my name is bhanu "
+//  const z = "i am from guna "
+// const a = x.concat(y,z,);
+// console.log(a)
 
