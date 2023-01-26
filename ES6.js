@@ -557,6 +557,17 @@
 // document.write(user + "<br><br>")
 
 
+// ========== shift ============ unshift ===========
+
+// const user = ["bhanu", "tinku" , "ashu" , "ajay" ]
+// document.write(user + "<br><br>")
+// user.shift();
+// document.write(user + "<br><br>")
+// user.unshift("deko")
+// document.write(user + "<br><br>")
+
+
+
 // =========================== find ===== findIndex ===================
 
 // old====
@@ -674,18 +685,48 @@
 
 // console.log(box23)
 
-// ==============join ========concat==============
-
-
-
-
-
-
+// ======================concat==============
 
 
 //  const x = "hello my name is yash "
 //  const y = "hello my name is bhanu "
 //  const z = "i am from guna "
-// const a = x.concat(y,z,);
+// const love = x.concat(y,z,);
+// console.log(love)
+
+
+
+
+// ===================length========================
+
+// const str = "my name is yash birthare and i am from guna city"
+// const a = str.length;
 // console.log(a)
+
+
+// ==================array example========= x
+// const str = ["bhanu","raju","raja","ravi"]
+// const a = str.length;
+// console.log(a)
+
+
+
+
+
+
+// ==================splice ========== slice ========
+
+// const str = ["bhanu","raju","raja","ravi","yash","Om"];
+// console.log(str)
+// const a = str.slice(1 ,4,);
+
+// console.log(a)
+
+
+// const str = ["bhanu","raju","raja","ravi"];
+// console.log(str)
+
+// str.splice(1,1,"rani","pooja")
+// console.log(str)
+
 
