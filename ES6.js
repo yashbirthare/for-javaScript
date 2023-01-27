@@ -434,6 +434,89 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // =============== Array filter===========
 
 // old ====
@@ -514,8 +597,8 @@
 
 // const dar = ashu.reduce(box,0)
 
-// function box (acc, curr) {
-//     return  acc + curr 
+// function box (accumulator, currentValue) {
+//     return  accumulator + currentValue 
 //     }
 // console.log(dar)
 
@@ -681,11 +764,11 @@
 
 // const str = "javaScript is  a GREAT Language";
 
-// const box23 = str.split("a");
+// const box23 = str.split(" ");
 
 // console.log(box23)
 
-// ======================concat==============
+// ======================concat============== same as ""join"" 
 
 
 //  const x = "hello my name is yash "
@@ -723,10 +806,12 @@
 // console.log(a)
 
 
+
 // const str = ["bhanu","raju","raja","ravi"];
 // console.log(str)
 
 // str.splice(1,1,"rani","pooja")
 // console.log(str)
+
 
 
