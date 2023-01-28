@@ -810,7 +810,7 @@
 // const str = ["bhanu","raju","raja","ravi"];
 // console.log(str)
 
-// str.splice(1,1,"rani","pooja")
+// str.splice(2,0,"rani","pooja")
 // console.log(str)
 
 
