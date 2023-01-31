@@ -1,15 +1,11 @@
-function hello () {
-    document.write("my nam is yash")
-}
+// function hello () {
+//     document.write("my nam is yash")
+// }
 
  
-hello()
+// hello()
  
-document.write("<br><br>")
-
-
-
-
+// document.write("<br><br>")
 
 
 // const hey = function () {
