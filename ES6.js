@@ -530,12 +530,16 @@
 
 
 
+
+
+
+
 // // // new ===
 // const ages = [10 ,15 ,5 , 9, 21,18, 19,];
 // console.log(ages)
 
 
-// const b = ages.filter(yash = (age) => {
+// const b = ages.filter((age) => {
 //     return age >= 18
 // })
 
@@ -567,12 +571,14 @@
 
 
 
+
+
 // =====================new=============
 
 // const box = [12,23,54,12,54,17,]
 // console.log(box)
 
-// const num = box.map(yash = (num) => {
+// const num = box.map( (num) => {
 //     return num  + 2
 // })
 
@@ -602,11 +608,12 @@
 
 // const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
 
-// const dar = ashu.reduce(box = (acc, curr) => {
+// const dar = ashu.reduce((acc, curr) => {
 //     return acc + curr 
 // },0) 
 
 // console.log(dar)
+
 
 
 
@@ -645,7 +652,6 @@
 // document.write(user + "<br><br>")
 
 
-
 // =========================== find ===== findIndex ===================
 
 // old====
@@ -661,12 +667,14 @@
 // console.log(fil)
 
 
+
+
 // new======== 
 
 // const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
 // console.log(index)
 
-// const fil = index.find(yash = (age) => {
+// const fil = index.find((age) => {
 //     return age > 18
 // })
 
@@ -692,7 +700,7 @@
 // const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
 // console.log(index)
 
-// const fil = index.findIndex(yash = (age) => {
+// const fil = index.findIndex((age) => {
 //     return age > 18
 // })
 
@@ -720,7 +728,7 @@
 // const box = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
 // console.log(box)
 
-// const x = box.some(yash = (age) => {
+// const x = box.some((age) => {
 //     return age > 18
 // })
 
@@ -748,7 +756,7 @@
 // const box = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
 // console.log(box)
 
-// const x = box.every(yash = (age) => {
+// const x = box.every((age) => {
 //     return age > 18
 // })
 
