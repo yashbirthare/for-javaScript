@@ -184,6 +184,8 @@
 
 
 
+
+
 // const Name = (num) => {
 //    if (num.match("a")) {
 //     return ("pass")
@@ -196,4 +198,13 @@
 
 
 
+const x = (num) => {
+   if (num.lenght > "5" ){
+     return("pass")
+    }else{
+    return("fail")
+    }
+}
 
+
+console.log(x("yasbhh"))
