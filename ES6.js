@@ -838,9 +838,9 @@
 
 
 
-// const Nam = (num) => num > 0  ? ("positive") : ("negitive") ;
+const Nam = (num) => num > 0  ? ("positive") : ("negitive") ;
 
-// console.log(Nam(-12))
+console.log(Nam(-12))
 
 
 
