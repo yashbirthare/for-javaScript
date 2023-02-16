@@ -198,13 +198,13 @@
 
 
 
-const x = (num) => {
-   if (num.lenght > 5 ){
-     return("pass")
-    }else{
-    return("fail")
-    }
-}
+// const x = (num) => {
+//    if (num.lenght > 5 ){
+//      return("more than 5")
+//     }else{
+//     return("less than 5")
+//     }
+// }
 
 
-console.log(x("yfash"))
+// console.log(x("yashbirthare"))
