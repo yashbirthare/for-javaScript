@@ -199,7 +199,7 @@
 
 
 const x = (num) => {
-   if (num.lenght > "5" ){
+   if (num.lenght > 5 ){
      return("pass")
     }else{
     return("fail")
@@ -207,4 +207,4 @@ const x = (num) => {
 }
 
 
-console.log(x("yasbhh"))
+console.log(x("yfash"))
