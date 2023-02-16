@@ -121,8 +121,79 @@
 // document.write("<br><br>");
 // document.write(x <= y);
 
+
+
+
+
+
+
+
+// const num = (num1, num2) => {
+//     if (num1 > num2){
+//       return `${num1} is greater than ${num2}`
+//     }else{
+//         return `${num2} is greater than ${num1}`
+//     }
+//  }
+
+// console.log(num(2,3))
+
+
+
+
+// const num = (num1, num2) => {
+//     if (num1 > num2){
+//       return num1 + " is greater than " + num2
+//     }else{
+//         return num2 + " is greater than " + num1
+//     }
+//  }
+
+// console.log(num(10,21))
+
+// =========Template String ===================
+
+
 // ===============================================================================================
 
 // ====================================addvance javaScript===================================
+
+
+
+// const num = (num) => {
+//     if (num > 0){
+//     return ("positive")
+//     }else{
+//      return ("negitive")
+//     }
+// }
+
+// console.log(num(3))
+
+
+
+
+
+
+
+// const Nam = (num) => num > 0  ? ("positive") : ("negitive") ;
+
+// console.log(Nam(-12))
+
+
+
+
+
+// const Name = (num) => {
+//    if (num.match("a")) {
+//     return ("pass")
+//    }else{
+//     return ("fail")
+//    }
+// }
+
+// console.log(Name("Ysh"))
+
+
 
 
