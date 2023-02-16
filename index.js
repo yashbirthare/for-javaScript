@@ -138,7 +138,7 @@
 //     }
 //  }
 
-// console.log(num(2,3))
+// console.log(num(8,3))
 
 
 
@@ -196,7 +196,10 @@
 //    }
 // }
 
-// console.log(Name("Ysh"))
+// console.log(Name("yash"))
+
+
+
 
 
 
