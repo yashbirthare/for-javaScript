@@ -849,28 +849,28 @@
 
 
 
-// const Name = (num) => {
-//    if (num.match("a")) {
-//     return ("pass")
-//    }else{
-//     return ("fail")
-//    }
-// }
 
-// console.log(Name("yash"))
-
-
-
-
-
-
-// const x = (num) => {
-//    if (num.lenght > 5 ){
-//      return("more than 5")
+// const word = (num) => {
+//     if (num.match("a")){
+//         return(" include a")
 //     }else{
-//     return("less than 5")
+//         return ("dose note include a")
 //     }
 // }
 
+// console.log(word("ysh"))
 
-// console.log(x("yashbirthare"))
+
+
+
+
+
+// const word = (num) => {
+//     if (num.length > 5){
+//         return ` more than 5 characters`
+//     }else{
+//         return `lass tha 5 characters`
+//     }
+// }
+
+// console.log(word("ysh"))
