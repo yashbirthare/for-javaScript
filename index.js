@@ -162,6 +162,31 @@
 
 
 
+// const product = ( {title,price,description}) => {
 
+// console.log (title)
+// console.log (description)
+// console.log (price)
+    
+// }
 
+//  product ({title: "Iphone", price: 5999, description: "the phone is a smartPhone developed by apple"})
+//  const ashu = {
+//     title: "Iphone",
+//   price: 5999, 
+//   description: "the phone is a smartPhone developed by apple"
+// }
 
+// const  { title,price } = ashu
+// console.log(title)
+
+ const  ashu2 = {
+    num1 : "2",
+    num2 : "3" 
+ }
+
+ const {num1 , num2} = ashu2
+
+ console.log(num1 + num2)
+
+ 
