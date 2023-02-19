@@ -121,13 +121,13 @@
 
 // object
 
-const user = {name: "yash", age: 25, city:"guna",}
+// const user = {name: "yash", age: 25, city:"guna",}
 
-const {name, age, city} = user;
+// const {name, age, city} = user;
 
-console.log(name)
-console.log(age)
-console.log(city)
+// console.log(name)
+// console.log(age)
+// console.log(city)
 
 
 
