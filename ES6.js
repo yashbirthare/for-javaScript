@@ -168,7 +168,7 @@
 // =========Global scope ====================
 
 
-// if ( 1==1 ) {
+// if ( 1==1) {
 
 //     let x = "yash"
 //     console.log(x)
@@ -204,7 +204,7 @@
 
 // function defaultExample  (a, b )  {
 //     if(b === undefined) {
-//         b = 0
+//         b =0
 //     }
 //     return a + b;
 // }
@@ -233,11 +233,9 @@
 
 //  // ===================================================================
 
+
 // Promise
  
-
-
-
 // const yash = true;
 
 // const promise = new Promise((resolve, reject)=> {
@@ -274,7 +272,6 @@
 
 
 
-
 // const one = (complete)  => {
     
 // return new Promise(function(resolve, reject){
@@ -298,6 +295,9 @@
 // }
 
 // one(true).then(onfulfilment).catch(onRejection);
+
+
+
 
 
 
@@ -361,7 +361,6 @@
 // setTimeout ====================== clearTimeout 
 
 // ====old
-
 //  var id = setTimeout(anim, 3000);
 
 
@@ -875,7 +874,5 @@
 // }
 
 // console.log(word("ysh"))
-
-
 
 
