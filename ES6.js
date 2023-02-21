@@ -233,9 +233,10 @@
 
 //  // ===================================================================
 
-
 // Promise
  
+
+
 
 // const yash = true;
 
@@ -273,6 +274,7 @@
 
 
 
+
 // const one = (complete)  => {
     
 // return new Promise(function(resolve, reject){
@@ -296,9 +298,6 @@
 // }
 
 // one(true).then(onfulfilment).catch(onRejection);
-
-
-
 
 
 
@@ -362,6 +361,7 @@
 // setTimeout ====================== clearTimeout 
 
 // ====old
+
 //  var id = setTimeout(anim, 3000);
 
 
