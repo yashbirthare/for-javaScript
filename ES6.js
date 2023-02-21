@@ -168,7 +168,7 @@
 // =========Global scope ====================
 
 
-// if ( 1==1) {
+// if ( 1==1 ) {
 
 //     let x = "yash"
 //     console.log(x)
@@ -236,6 +236,7 @@
 
 // Promise
  
+
 // const yash = true;
 
 // const promise = new Promise((resolve, reject)=> {
@@ -874,5 +875,7 @@
 // }
 
 // console.log(word("ysh"))
+
+
 
 
