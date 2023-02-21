@@ -204,7 +204,7 @@
 
 // function defaultExample  (a, b )  {
 //     if(b === undefined) {
-//         b =0
+//         b = 0
 //     }
 //     return a + b;
 // }
