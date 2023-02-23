@@ -884,17 +884,19 @@
 
 
  
-const ashu = (a,b,c) => {
- if (c === undefined){
-    c = 4;
- }
-return a * b * c;
-};
+// const ashu = (a,b,c) => {
+//  if (c === undefined){
+//     c = 4;
+//  }
+// return a * b * c;
+// };
 
 
 // console.log(ashu2(2,3))
 
-const ashu2= (a,b,c=4)=>  a*b*c
+// const ashu2= (a,b,c=4)=>  a*b*c
 
-console.log(ashu2(2,3))
+// console.log(ashu2(2,3))
 // const ashu
+
+
