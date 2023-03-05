@@ -162,15 +162,15 @@
 
 
 
-const product = ( {title,price,description}) => {
+// const product = ( {title,price,description}) => {
 
-console.log (title)
-console.log (description)
-console.log (price)
+// console.log (title)
+// console.log (description)
+// console.log (price)
     
-}
+// }
 
- product ({title: "Iphone", price: 5999, description: "the phone is a smartPhone developed by apple"})
+//  product ({title: "Iphone", price: 5999, description: "the phone is a smartPhone developed by apple"})
 
 
 
