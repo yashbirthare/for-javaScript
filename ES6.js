@@ -597,30 +597,30 @@
 
 
 
-=====================reduce=========================
+// =====================reduce=========================
 
-===old
+// ===old
 
-const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
-
-
-const dar = ashu.reduce(box,0)
-
-function box (accumulator, currentValue) {
-    return  accumulator + currentValue 
-    }
-console.log(dar)
+// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
 
 
-====new
+// const dar = ashu.reduce(box,0)
 
-const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+// function box (accumulator, currentValue) {
+//     return  accumulator + currentValue 
+//     }
+// console.log(dar)
 
-const dar = ashu.reduce((acc, curr) => {
-    return acc + curr 
-},0) 
 
-console.log(dar)
+// ====new
+
+// const ashu = [12, 42, 14, 78, 43, 35, 21, 87,65,43,21,53,]
+
+// const dar = ashu.reduce((acc, curr) => {
+//     return acc + curr 
+// },0) 
+
+// console.log(dar)
 
 
 
