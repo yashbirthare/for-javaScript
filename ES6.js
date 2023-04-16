@@ -27,6 +27,9 @@
 // Arrow()
 
 // document.write("<br><br>")
+
+
+
 // ==================================Arrow function===================================================
 
 // let welcome = (name, age) => {
@@ -664,15 +667,15 @@
 
 // old====
 
-const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
-console.log(index)
-const fil = index.find(yash)
+// const index  = [15 ,43 , 12, 32, 19, 23, 14, 2, 5, 6, 7]
+// console.log(index)
+// const fil = index.find(yash)
 
-function yash(age) {
-    return age > 18
-}
+// function yash(age) {
+//     return age > 18
+// }
 
-console.log(fil)
+// console.log(fil)
 
 
 
